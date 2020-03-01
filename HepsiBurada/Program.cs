@@ -1,6 +1,7 @@
 ﻿using HepsiBurada.Model;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace HepsiBurada
 {
@@ -12,6 +13,13 @@ namespace HepsiBurada
         static readonly string data3 = "LMLMLMLMM";
         static readonly string data4 = "3 3 E";
         static readonly string data5 = "MMRMMRMRRM";
+        static readonly List<Step> steps = new List<Step> {
+            new Step { Direction = "N", X = 0, Y = 1 },
+            new Step { Direction = "E", X = 1, Y = 0 },
+            new Step { Direction = "S", X = 0, Y = -1 },
+            new Step { Direction = "W", X = -1, Y = 0 }
+        };
+
 
         static void Main(string[] args)
         {
@@ -57,22 +65,9 @@ namespace HepsiBurada
                     }
                     else if (item2.ToString() == "M")
                     {
-                        if (lastDirection == "N")
-                        {
-                            point[1]++;
-                        }
-                        else if (lastDirection == "E")
-                        {
-                            point[0]++;
-                        }
-                        else if (lastDirection == "S")
-                        {
-                            point[1]--;
-                        }
-                        else if (lastDirection == "W")
-                        {
-                            point[0]--;
-                        }
+                        Step step = steps.Where(x => x.Direction == lastDirection).FirstOrDefault();
+                        point[0] = point[0] + step.X;
+                        point[1] = point[1] + step.Y;
 
                         if (point[0] > generalModel.SizeRectangle[0] || point[1] > generalModel.SizeRectangle[1])
                         {

@@ -15,4 +15,11 @@ namespace HepsiBurada.Model
         public string[] StartPoint { get; set; }
         public string Direction { get; set; }
     }
+
+    public class Step
+    {
+        public string Direction { get; set; }
+        public int X { get; set; }
+        public int Y { get; set; }
+    }
 }
