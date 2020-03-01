@@ -1,0 +1,11 @@
+C:\Users\sacid\source\repos\HepsiBurada\HepsiBurada\bin\Debug\netcoreapp3.0\HepsiBurada.exe
+C:\Users\sacid\source\repos\HepsiBurada\HepsiBurada\bin\Debug\netcoreapp3.0\HepsiBurada.deps.json
+C:\Users\sacid\source\repos\HepsiBurada\HepsiBurada\bin\Debug\netcoreapp3.0\HepsiBurada.runtimeconfig.json
+C:\Users\sacid\source\repos\HepsiBurada\HepsiBurada\bin\Debug\netcoreapp3.0\HepsiBurada.runtimeconfig.dev.json
+C:\Users\sacid\source\repos\HepsiBurada\HepsiBurada\bin\Debug\netcoreapp3.0\HepsiBurada.dll
+C:\Users\sacid\source\repos\HepsiBurada\HepsiBurada\bin\Debug\netcoreapp3.0\HepsiBurada.pdb
+C:\Users\sacid\source\repos\HepsiBurada\HepsiBurada\obj\Debug\netcoreapp3.0\HepsiBurada.csprojAssemblyReference.cache
+C:\Users\sacid\source\repos\HepsiBurada\HepsiBurada\obj\Debug\netcoreapp3.0\HepsiBurada.AssemblyInfoInputs.cache
+C:\Users\sacid\source\repos\HepsiBurada\HepsiBurada\obj\Debug\netcoreapp3.0\HepsiBurada.AssemblyInfo.cs
+C:\Users\sacid\source\repos\HepsiBurada\HepsiBurada\obj\Debug\netcoreapp3.0\HepsiBurada.dll
+C:\Users\sacid\source\repos\HepsiBurada\HepsiBurada\obj\Debug\netcoreapp3.0\HepsiBurada.pdb
